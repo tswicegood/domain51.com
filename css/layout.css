@@ -338,3 +338,34 @@ form input.button{
     text-decoration: underline;
 }
 
+
+.container {
+    clear:both;
+}
+
+.container h2 {
+    margin-top: 20px;
+}
+
+div.bios {
+
+}
+
+div.bios dl {
+    margin-left:20px;
+}
+
+div.bios dt {
+    margin-top:20px;
+    color:#ccc;
+    font-style:italic;
+}
+
+div.bios dd {
+    margin-left:20px;
+}
+
+div.bios dd img {
+    margin-right:20px;
+    border:5px solid #111;
+}

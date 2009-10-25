@@ -369,3 +369,25 @@ div.bios dd img {
     margin-right:20px;
     border:5px solid #111;
 }
+
+div.post dl dt {
+    float:left;
+}
+
+div.post dl dd {
+    float:left;
+}
+
+div.post .credits p {
+    width:100%;
+    margin-top:0;
+    line-height:1.3;
+}
+
+div.post .credits img {
+    margin-right:5px;
+}
+
+.left {
+    float:left;
+}

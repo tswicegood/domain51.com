@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<div class="post">
+    <h1>{{ page.title }}</h1>
+
+    <div class="content">
+        {{ content }}
+    </div>
+
+    <div class="related">
+        <ul>
+        {% for post in site.related_posts limit:3 %}
+            <li>{{ post.date | date_to_string }}&mdash;<a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% endfor %}
+        </ul>
+    </div>
+
+    <div class="credits">
+        <p class="left">
+            <img src="{{ page.author_email|gravatar }}?s=40"
+                 class="left"
+                 alt="{{ page.author }}"
+                 title="{{ page.author }}" />
+            Posted by <a href="{{ page.author_url }}">{{ page.author }}</a><br />
+            Originally published on {{ page.published_date }}
+        </p>
+    </div>
+
+</div>

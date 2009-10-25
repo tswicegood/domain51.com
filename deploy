@@ -1,0 +1,3 @@
+#!/bin/bash
+scp -r _site/* tswicegood@domain51.com:~/domains/domain51.com/public
+

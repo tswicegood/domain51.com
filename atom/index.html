@@ -1,0 +1,28 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+    <title>Domain51</title>
+    <link href="http://domain51.com/atom.xml" rel="self"/>
+    <link href="http://domain51.com/"/>
+    <updated>{{ site.time | date_to_xmlschema }}</updated>
+    <id>http://domain51.com/</id>
+    <author>
+        <name>Travis Swicegood</name>
+        <email>travis@domain51.com</email>
+    </author>
+
+    {% for post in site.posts %}
+    <entry>
+        <title>{{ post.title }}</title>
+        <link href="http://domain51.com{{ post.url }}"/>
+        <updated>{{ post.date | date_to_xmlschema }}</updated>
+        <id>http://domain51.com{{ post.id }}</id>
+        <content type="html">{{ post.content | xml_escape }}</content>
+    </entry>
+    {% endfor %}
+
+</feed>
+

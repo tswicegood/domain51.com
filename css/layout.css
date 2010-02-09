@@ -3,15 +3,24 @@
 	padding: 0;
 	}
 
+html, body {
+    height: 100%;
+}
+
 body {
-	width: 960px;
-	margin: 0 auto;
 	font: 400 1.0em "Helvetica Neue",helvetica,sans-serif;
 	color: #333;
 	background-color: #fff;
     background: #fff url(../images/small-pentagon.png) repeat-x;
 	}
 
+#container {
+	width: 960px;
+    margin: 0 auto -200px;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+}
 
 #nav {
 	margin: 0;
@@ -271,8 +280,8 @@ blockquote, .blockquote {
 	width: 100%;
 	border-top: 1px solid #ddd;
 	border-bottom: 1px solid #ddd;
-	background-color: #202020;
-	margin: 10px 0 20px 10px;
+	background-color: #eee;
+	margin: 5px 0 20px 20px;
 	padding: 5px;
 	font-style: italic;
 	}
@@ -313,12 +322,14 @@ form input.button{
 	}
 
 #foot {
+    background:#333;
+    height:198px;
     color:#333;
     clear:both;
 	width: 100%;
-	border-top: 3px solid #ddd;
-	padding: 40px 0 40px 0;
-	margin-top: 40px;
+	border-top: 3px solid #333;
+	padding: 0;
+    margin:0;
     font-size:80%;
 	}
 
@@ -331,9 +342,21 @@ form input.button{
     text-decoration: underline;
 }
 
+#foot #copyright {
+    background:#666;
+    padding: 0.5em;
+}
+#foot #copyright p {
+    width:960px;
+    margin:0 auto;
+}
 
 .container {
     clear:both;
+}
+
+.container p {
+    margin:0;
 }
 
 .container h2 {
@@ -350,7 +373,8 @@ div.bios dl {
 
 div.bios dt {
     margin-top:20px;
-    color:#ccc;
+    color:#333;
+    font-weight:bold;
     font-style:italic;
 }
 
@@ -360,7 +384,7 @@ div.bios dd {
 
 div.bios dd img {
     margin-right:20px;
-    border:5px solid #111;
+    border:5px solid #666;
 }
 
 div.post dl dt {

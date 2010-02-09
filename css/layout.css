@@ -7,13 +7,14 @@ body {
 	width: 960px;
 	margin: 0 auto;
 	font: 400 1.0em "Helvetica Neue",helvetica,sans-serif;
-	color: #666;
-	background-color: #222;
+	color: #333;
+	background-color: #fff;
+    background: #fff url(../images/small-pentagon.png) repeat-x;
 	}
 
-	
+
 #nav {
-	margin: 0.5em 0;
+	margin: 0;
 	width: 100%;
 	padding: 10px 0;
 	}
@@ -32,7 +33,7 @@ body {
 	
 #nav li a {
 	margin-left: 40px;
-	padding-top: 20px;
+	padding-top: 10px;
 	display: block;
 	text-decoration: none;
 	font: 400 1.1em "Helvetica Neue",helvetica,sans-serif;
@@ -41,7 +42,7 @@ body {
 	}
 
 #nav li a:hover {
-	background: #222 url('/images/arrow_dark.gif') no-repeat top center;
+	background: url('../images/arrow.gif') no-repeat top center;
 	}
 	
 #head {
@@ -51,34 +52,26 @@ body {
 	}
 
 #head h1 {
-	font: 200 6em "Helvetica Neue",helvetica,sans-serif;
-  text-shadow: #111 0px 1px 1px;
-	color: #FFF;
-	margin-top: 90px;
 	margin-bottom: 0px;
 	padding-bottom: 0px;
-  text-transform:lowercase;
-	letter-spacing: -0.05em;
-	}
-
-#head h1 span.a {
-  letter-spacing: -0.0em;
-}
-
-#head h1 span.five {
-  letter-spacing: -0.13em;
+    text-indent: -50000px;
+    overflow:hidden;
+    width:601px;
+    height:175px;
+    background: url(../images/domain51.png) no-repeat;
 }
 
 #head h2 {
 	font: 200 1.5em "Helvetica Neue",helvetica,sans-serif;
-  text-shadow: #111 0px 1px 1px;
-	margin-top: -0.85em;
+    text-shadow: #999 0px 1px 1px;
+	margin-top: -1.50em;
+    margin-left:1em;
 	padding: 0;
-  padding-left:0.2em;
-  -webkit-padding-left:0.4em;
+    padding-left:0.2em;
+    -webkit-padding-left:0.4em;
 	margin-bottom: 40px;
-  text-transform:lowercase;
-	letter-spacing:  0.25em;
+    text-transform:lowercase;
+	letter-spacing:  0.4em;
 	}
 
 .main {
@@ -91,7 +84,7 @@ body {
 #right {
 	width: 240px;
 	float: left;
-	border-top: 5px solid #191919;
+	border-top: 5px solid #ddd;
 	padding-top: 40px;
 	text-align: right;
 	margin-bottom: 40px;
@@ -116,13 +109,13 @@ body {
 	}
 
 #right li a:hover, .right2 li a:hover {
-	background: #222 url('/images/bullet_dark.gif') no-repeat left center;
+	background: #eee url('../images/bullet.gif') no-repeat left center;
 	}
 
 #content {
     float:left;
 	width: 700px;
-	border-top: 5px solid #191919;
+	border-top: 5px solid #ddd;
 	padding-top: 40px;
 	margin-bottom: 40px;
 	}
@@ -190,7 +183,7 @@ a:hover img.color {
 	width: 10px;
 	margin-left: 15px;
 	padding-top: 40px;
-	border-top: 5px solid #191919;
+	border-top: 5px solid #ddd;
 	text-align: right;
 	font-size: 0.9em;
 	}
@@ -202,7 +195,7 @@ a:hover img.color {
 #content2 {
     float: left;
     width: 610px;
-	border-top: 5px solid #191919;
+	border-top: 5px solid #ddd;
 	padding-top: 40px;
 	}
 	
@@ -231,7 +224,7 @@ ol li {
 	
 #content ul li, #content2 ul li {
 	padding-left: 17px;
-	background: url('/images/bullet2_dark.gif') no-repeat left center;
+	background: url('../images/bullet2.gif') no-repeat left center;
 	margin-left: 10px;
 	}
 
@@ -266,7 +259,7 @@ thead th {
 
 
 tbody td {
-  border-bottom: 1px solid #191919;
+  border-bottom: 1px solid #ddd;
 }
 
 tbody tr:hover {
@@ -276,8 +269,8 @@ tbody tr:hover {
 blockquote, .blockquote {
 	display: block;
 	width: 100%;
-	border-top: 1px solid #191919;
-	border-bottom: 1px solid #191919;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
 	background-color: #202020;
 	margin: 10px 0 20px 10px;
 	padding: 5px;
@@ -294,7 +287,7 @@ form input.text, form textarea{
 	color:#666;
 	padding:4px 5px;
 	font:12px Arial,san-serif;
-	background-color: #191919;
+	background-color: #ddd;
 	}
 
 form input.text:hover, form textarea:hover{
@@ -323,7 +316,7 @@ form input.button{
     color:#333;
     clear:both;
 	width: 100%;
-	border-top: 3px solid #191919;
+	border-top: 3px solid #ddd;
 	padding: 40px 0 40px 0;
 	margin-top: 40px;
     font-size:80%;

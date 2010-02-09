@@ -322,7 +322,7 @@ form input.button{
 	}
 
 #foot {
-    background:#333;
+    background: #333;
     height:198px;
     color:#333;
     clear:both;
@@ -332,6 +332,14 @@ form input.button{
     margin:0;
     font-size:80%;
 	}
+
+#foot #footer_container {
+    background: #333;
+}
+
+#foot #footer_container #feeds { 
+    color: #999;
+}
 
 #foot p, #foot a {
     color: #333 !important;

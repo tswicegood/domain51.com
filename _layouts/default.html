@@ -47,6 +47,18 @@
     <div id="copyright">
         <p>Copyright &copy; MCMXCIX&mdash;MMIX <a href="http://domain51.com/">Domain51</a></p>
     </div>
+
+    <div id="feeds">
+        <div id="feeds_github">
+            {% atom http://github.com/domain51.atom %}'
+            <ul>
+                {% for entry in feed.entries %}
+                <li>{{ entry.title }}</li>
+                {% endfor %}
+            </ul>
+
+        </div>
+    </div>
 </div>
 
 

@@ -118,7 +118,7 @@ body {
 	}
 
 #right li a:hover, .right2 li a:hover {
-	background: #eee url('../images/bullet.gif') no-repeat left center;
+	background: url('../images/bullet.gif') no-repeat left center;
 	}
 
 #content {

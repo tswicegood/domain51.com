@@ -423,3 +423,43 @@ div.post .credits img {
     left: 0;
     border: 0;
 }
+
+div.post dl {
+    margin-left:20px;
+}
+
+div.post {
+    padding-bottom:20px;
+    border-bottom: 1px dashed #999;
+    margin-bottom: 40px;
+}
+
+div.post dl, div.post dl dt, div.post dl dd {
+    color: #777;
+}
+
+fieldset { 
+    margin-top: 20px;
+}
+
+div.post .pressrelease.about fieldset {
+    margin-bottom:20px;
+    padding:10px;
+}
+
+div.post .pressrelease.about p {
+    margin-left:30px;
+}
+div.post dl dt {
+    margin-top:5px;
+    width:100px;
+    text-align:right;
+    padding-right: 5px;
+    clear:both;
+    float:left;
+}
+
+div.post dl dd {
+    margin-top:5px;
+    float:left;
+}
